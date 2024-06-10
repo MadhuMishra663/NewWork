@@ -1,0 +1,123 @@
+.sidebar{
+    background-color: #8698A0;
+    height: 600px;
+    width: 300px;
+    border: 1px solid black;
+    transition: all 300ms linear;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+    
+}
+.arrow{
+    background-color: #8698A0;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.arrow:hover{
+    background-color: #BBCFD8 ;
+    
+}
+/* .sidebar1{
+    display: flex;
+    justify-content: space-between;
+} */
+.workspace{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.plusicon{
+    margin-top: 8%;
+    background-color: #8698A0;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.plusicon:hover{
+    background-color: #BBCFD8 ;
+    
+}
+.spanButton{
+    display: flex;
+    font-size: small;
+    border: none;
+    background-color: transparent;
+    gap: 10px;
+    margin-left:-35px;
+    color: white;
+}
+.spanButton:hover{
+    background-color: #BBCFD8 ;
+}
+.forColor{
+    background-color: #328FE1 ;
+    width: 20px;
+    height: max-content;
+    fill: #328FE1;
+    text-decoration: none;
+  
+}
+.liststyle{
+    list-style: none;
+}
+.content4{
+    margin-left: 2px;
+    padding: 2px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #575c5f;
+    color: white;
+    text-align: center;
+}
+.x-bar{
+    background-color: transparent;
+    border: none;
+    position:absolute;
+    color: white;
+    margin-top: -170px;
+    border-radius: 50%;
+}
+.x-bar:hover{
+    background-color: #b7bec1;
+}
+.formelement{
+    display: flex;
+    flex-direction: column;
+}
+.titlebox{
+    height: 50px;
+    background-color: #3c3e40;
+    color: white;
+}
+.colorbox{
+    width: 100%;
+}
+.createButton{
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color:#3c3e40;
+    border: none;
+}
+.createButton:hover{
+    background-color: #a3aaaf;
+}

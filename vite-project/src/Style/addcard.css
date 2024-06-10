@@ -1,0 +1,44 @@
+.cardadd{
+    display: flex;
+    flex-direction: column;
+}
+.x-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 50%;
+   
+    
+}
+.x-button:hover{
+    background-color: #8698A0;
+}
+.buttonsandcrossicon{
+    display: flex;
+    align-items: center;
+}
+.add-button{
+    background-color: rgb(107, 162, 184);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.text-area{
+    background-color: #8698A0;
+    margin-top: 5px;
+}
+.addacard{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    border: none;
+    height: 35px;
+    margin-top: 5px;
+    
+}
+.addacard:hover{
+    background-color: #8698A0;
+}

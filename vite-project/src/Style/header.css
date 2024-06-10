@@ -1,0 +1,11 @@
+.headers{
+    background-color: #8698A0;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+.headerSection3{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}

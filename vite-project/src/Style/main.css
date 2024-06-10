@@ -1,0 +1,87 @@
+.mainDiv{
+    width: 100%;
+    background-color: #2D6985;
+}
+.main1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #245594 ;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.buttonshare{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    gap: 10px;
+    color: black;
+}
+.maincenterdiv{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.maincenter2{
+    margin-right: 6px;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    border-radius: 5px;
+    flex-shrink: 0;
+
+    
+}
+.listsofspanandpoint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listhorizontal{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.listhorizontal:hover{
+    background-color: #8698A0;
+}
+.mainwraper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-x: scroll;
+    flex-grow: relative;
+    overflow-y: hidden;
+    margin-bottom:100px ;
+    padding-bottom: 200px;
+    margin-left: 300px;
+    margin-top:170px;
+    display: flex;
+    
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8698A0;
+    border-radius: 5px;
+    padding: 1px;
+}
+.items:hover{
+    background-color: #707d83;
+}
+.edit{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+.edit:hover{
+    background-color: #8698A0;
+}
